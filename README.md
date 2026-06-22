@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Javascript and C#
 - 💞️ I’m looking to collaborate on Monogame
 - 📫 How to reach me Instagram: classycorpse
-- 😄 Pronouns: we don't do that here
+- 😄 Pronouns: He/Him
 - ⚡ Fun fact: orcas are the only true apex predator!!
 
 <!---
