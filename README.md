@@ -1,4 +1,4 @@
-<img width="100%" src="assets/banner.svg" alt="Kanishk Sagar: ML · systems · things built from scratch" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Kanishk%20Sagar&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=ML%20%C2%B7%20systems%20%C2%B7%20things%20built%20from%20scratch&descAlignY=58&descSize=17" alt="Kanishk Sagar" />
 
 <p align="center">
   <a href="https://github.com/ActiveMasquerade">
@@ -19,14 +19,16 @@ I like fine-tuning small models until they punch above their weight, and buildin
 
 **Focus** &nbsp;·&nbsp; LLM fine-tuning, retrieval, systems in C++<br/>
 **Stack** &nbsp;·&nbsp; Python, PyTorch, C++, FastAPI, JavaScript<br/>
-**Currently** &nbsp;·&nbsp; wrapping up Desi Agent, a 3B multilingual banking agent for the Lexsi AI hackathon<br/>
+**Currently** &nbsp;·&nbsp; distilling a multilingual tool-calling agent for the Lexsi AI hackathon<br/>
 **Rule of thumb** &nbsp;·&nbsp; if there's no benchmark, it doesn't count yet<br/>
 **Fun fact** &nbsp;·&nbsp; adult orcas have no natural predators
 
 ## Toolbox
 
 <p align="center">
-  <img width="760" src="assets/skills.svg" alt="Skills: Python, PyTorch, C++, FastAPI, JavaScript, React, Tailwind CSS, MongoDB, CMake, Vite, Git, Linux" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,cpp,fastapi,js,react,tailwind,mongodb,cmake,vite,git,linux&perline=12" alt="Skills" />
+  </a>
 </p>
 
 <p align="center">
@@ -94,12 +96,11 @@ All **35 opcodes** follow the original COSMAC VIP behavior. The four ambiguous "
 
 ---
 
-### [Desi Agent](https://github.com/CyberRik/desi-agent): multilingual banking agent *(with [@CyberRik](https://github.com/CyberRik))*
-<img src="https://img.shields.io/badge/tiny--aya--global%203.35B-6236FF?style=flat-square" /> <img src="https://img.shields.io/badge/LoRA%20SFT%20distillation-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Kaggle%20T4-20BEFF?style=flat-square&logo=kaggle&logoColor=white" /> <a href="https://huggingface.co/spaces/ToolW/desi-agent-lab"><img src="https://img.shields.io/badge/Live%20demo-Desi%20Agent%20Lab-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /></a>
+### [Desi Agent](https://github.com/CyberRik/desi-agent): multilingual banking agent *(in progress, with [@CyberRik](https://github.com/CyberRik))*
+<img src="https://img.shields.io/badge/tiny--aya--global-6236FF?style=flat-square" /> <img src="https://img.shields.io/badge/SFT%20%E2%86%92%20GRPO-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
 
-Lexsi AI Safety & Alignment Hackathon 2026, Track 3. A 3.35B Tiny Aya fine-tuned to call banking tools reliably in English, Hindi, Bengali, Hinglish and Banglish ("mera card block kar do"), and to **ask instead of guessing** when a detail is missing. Tool-call labels come from code rather than the teacher, so the 3B student ends up **beating its 14B teacher**. I owned the training and shipping lane.
+Lexsi AI Safety & Alignment Hackathon 2026, Track 3. We're distilling reliable tool calling into a ~3B open model for English, Hindi, Bengali, Hinglish and Banglish ("mera card block kar do"), and scoring it per language, including **false actions** the user never asked for. I own the training and shipping lane.
 
-**Task success 45.9% → 97.7%** on 486 held-out conversations · **wrong bank actions 20.8% → 1.8%** · two-step tasks 0% → 97.3% · 14B teacher: 67.5%
 ---
 
 ## Activity
@@ -108,4 +109,4 @@ Lexsi AI Safety & Alignment Hackathon 2026, Track 3. A 3.35B Tiny Aya fine-tuned
   <img src="https://streak-stats.demolab.com?user=ActiveMasquerade&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub streak" />
 </p>
 
-<img width="100%" src="assets/footer.svg" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" alt="" />
