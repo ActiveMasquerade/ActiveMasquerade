@@ -15,16 +15,15 @@
 
 ---
 
-```python
-class Kanishk:
-    focus     = ["LLM fine-tuning", "retrieval", "systems in C++"]
-    stack     = ["Python", "PyTorch", "C++", "FastAPI", "JavaScript"]
-    currently = "distilling a multilingual tool-calling agent (Lexsi AI hackathon)"
-    habit     = "if there's no benchmark, it doesn't count yet"
-    fun_fact  = "adult orcas have no natural predators 🐋"
-```
+I like fine-tuning small models until they punch above their weight, and building the systems underneath them from scratch.
 
-## 🧰 Toolbox
+**Focus** &nbsp;·&nbsp; LLM fine-tuning, retrieval, systems in C++<br/>
+**Stack** &nbsp;·&nbsp; Python, PyTorch, C++, FastAPI, JavaScript<br/>
+**Currently** &nbsp;·&nbsp; distilling a multilingual tool-calling agent for the Lexsi AI hackathon<br/>
+**Rule of thumb** &nbsp;·&nbsp; if there's no benchmark, it doesn't count yet<br/>
+**Fun fact** &nbsp;·&nbsp; adult orcas have no natural predators
+
+## Toolbox
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -50,9 +49,9 @@ class Kanishk:
 
 ---
 
-## 🚀 Featured work
+## Featured work
 
-### 🗄️ [VectorLite](https://github.com/ActiveMasquerade/mini_database): an embedded SQL database with vector search, from scratch
+### [VectorLite](https://github.com/ActiveMasquerade/mini_database): an embedded SQL database with vector search, from scratch
 <img src="https://img.shields.io/badge/C++23-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/B%2B%20Tree-555?style=flat-square" /> <img src="https://img.shields.io/badge/HNSW-555?style=flat-square" /> <img src="https://img.shields.io/badge/WAL-555?style=flat-square" />
 
 SQLite-style embedded engine (one library, one file, no server) where a `VECTOR(384)` column and a `WHERE author = 'Alice'` filter live in the **same query plan**. Relational predicates narrow the candidates before any distance math runs.
@@ -72,7 +71,7 @@ SQLite-style embedded engine (one library, one file, no server) where a `VECTOR(
 
 ---
 
-### 🌌 [Constellation](https://github.com/ActiveMasquerade/RAG_personal): personal RAG with a built-in evaluation dashboard
+### [Constellation](https://github.com/ActiveMasquerade/RAG_personal): personal RAG with a built-in evaluation dashboard
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square" /> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 
 Upload PDFs, Markdown and CSVs, then chat over them with citations, explore a similarity graph of your library, and **score your own retrieval**. The app writes golden questions from your chunks and runs them through the production pipeline (query rewrite → vector search → Cohere rerank).
@@ -81,7 +80,7 @@ Upload PDFs, Markdown and CSVs, then chat over them with citations, explore a si
 
 ---
 
-### ⚖️ [fine-tuning-gemma](https://github.com/ActiveMasquerade/fine-tuning-gemma): Gemma 3 1B for legal reasoning
+### [fine-tuning-gemma](https://github.com/ActiveMasquerade/fine-tuning-gemma): Gemma 3 1B for legal reasoning
 <img src="https://img.shields.io/badge/Gemma%203%201B-4285F4?style=flat-square&logo=google&logoColor=white" /> <img src="https://img.shields.io/badge/QLoRA%204--bit-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/CaseHOLD-555?style=flat-square" />
 
 QLoRA fine-tune of a 1B instruct model on CaseHOLD (LexGLUE): pick the correct holding out of five candidates, on consumer and Colab-class GPUs.
@@ -90,21 +89,21 @@ QLoRA fine-tune of a 1B instruct model on CaseHOLD (LexGLUE): pick the correct h
 
 ---
 
-### 🕹️ [Chip8++](https://github.com/ActiveMasquerade/chip8_emu): a deterministic CHIP-8 emulator
+### [Chip8++](https://github.com/ActiveMasquerade/chip8_emu): a deterministic CHIP-8 emulator
 <img src="https://img.shields.io/badge/C++23-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/SDL2-1D4E89?style=flat-square" /> <img src="https://img.shields.io/badge/GoogleTest-4285F4?style=flat-square&logo=google&logoColor=white" />
 
 All **35 opcodes** follow the original COSMAC VIP behavior. The four ambiguous "quirk" instructions each get a documented default instead of whatever the last tutorial did. The core is headless with **zero SDL dependency**, so the full test suite runs anywhere, and SDL2 is just an optional frontend.
 
 ---
 
-### 🗣️ [Desi Agent](https://github.com/CyberRik/desi-agent): multilingual banking agent *(in progress, with [@CyberRik](https://github.com/CyberRik))*
+### [Desi Agent](https://github.com/CyberRik/desi-agent): multilingual banking agent *(in progress, with [@CyberRik](https://github.com/CyberRik))*
 <img src="https://img.shields.io/badge/tiny--aya--global-6236FF?style=flat-square" /> <img src="https://img.shields.io/badge/SFT%20%E2%86%92%20GRPO-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
 
 Lexsi AI Safety & Alignment Hackathon 2026, Track 3. We're distilling reliable tool calling into a ~3B open model for English, Hindi, Bengali, Hinglish and Banglish ("mera card block kar do"), and scoring it per language, including **false actions** the user never asked for. I own the training and shipping lane.
 
 ---
 
-## 📈 Activity
+## Activity
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=ActiveMasquerade&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub streak" />
