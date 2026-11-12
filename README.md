@@ -1,4 +1,4 @@
-<img width="100%" src="assets/banner.svg" alt="The Quest of Kanishk Sagar: ML · systems · things built from scratch" />
+<img width="100%" src="assets/banner.svg" alt="Kanishk Sagar: ML · systems · things built from scratch" />
 
 <p align="center">
   <a href="https://github.com/ActiveMasquerade">
