@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Kanishk%20Sagar&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=ML%20%C2%B7%20systems%20%C2%B7%20things%20built%20from%20scratch&descAlignY=58&descSize=17" alt="Kanishk Sagar" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e0f7fa,50:b2ebf2,100:80deea&height=190&section=header&text=Kanishk%20Sagar&fontColor=0f2027&fontSize=52&fontAlignY=36&desc=ML%20%C2%B7%20systems%20%C2%B7%20things%20built%20from%20scratch&descAlignY=58&descSize=17" alt="Kanishk Sagar" />
 
 <p align="center">
   <a href="https://github.com/ActiveMasquerade">
